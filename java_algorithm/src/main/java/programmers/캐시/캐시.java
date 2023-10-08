@@ -1,8 +1,7 @@
-package algorithm;
-import java.util.*;
+package programmers.캐시;
 
-public class 캐시_프로그래머스 {
-	public static void main(String[] args) {
+public class 캐시 {
+    public static void main(String[] args) {
 	    // 문제 해결 코드 작성
 		class Solution {
 		    public int solution(int cacheSize, String[] cities) {
@@ -29,13 +28,13 @@ public class 캐시_프로그래머스 {
 		        return answer;
 		    }
 		}
-		
+
 		// 메서드 호출
 		Solution sol = new Solution();
 		int cacheSize = 3; // 임의의 캐시 크기
 		String[] cities = {"Jeju", "Pangyo", "Seoul", "NewYork", "LA", "Jeju", "Pangyo", "Seoul", "NewYork", "LA"}; // 임의의 도시 배열
 		int result = sol.solution(cacheSize, cities);
-		
+
 		System.out.println(result); // 결과 출력
 	}
 }

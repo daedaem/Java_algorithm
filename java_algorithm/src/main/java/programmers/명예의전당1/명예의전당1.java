@@ -1,8 +1,7 @@
-package algorithm;
-import java.util.*;
+package programmers.명예의전당1;
 
-public class 명예의전당1_프로그래머스 {
-	public static void main(String[] args) {
+public class 명예의전당1 {
+    public static void main(String[] args) {
         Solution solution = new Solution();
 	      int k = 3;
 	        int[] score = { 10, 100, 20, 150, 1, 100, 200};
