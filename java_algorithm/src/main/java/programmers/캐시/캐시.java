@@ -1,5 +1,5 @@
 package programmers.캐시;
-
+import java.util.*;
 public class 캐시 {
     public static void main(String[] args) {
 	    // 문제 해결 코드 작성
